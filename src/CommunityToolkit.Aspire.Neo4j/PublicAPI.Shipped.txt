@@ -1,0 +1,7 @@
+#nullable enable
+CommunityToolkit.Aspire.Neo4j.Neo4jClientSettings
+CommunityToolkit.Aspire.Neo4j.Neo4jClientSettings.Neo4jClientSettings() -> void
+CommunityToolkit.Aspire.Neo4j.Neo4jClientExtensions
+static CommunityToolkit.Aspire.Neo4j.Neo4jClientExtensions.AddNeo4jClient(this Microsoft.Extensions.Hosting.IHostApplicationBuilder! builder, string! connectionName, System.Action<CommunityToolkit.Aspire.Neo4j.Neo4jClientSettings>? configureSettings = null) -> void
+
+static CommunityToolkit.Aspire.Neo4j.Neo4jClientExtensions.AddKeyedNeo4jClient(this Microsoft.Extensions.Hosting.IHostApplicationBuilder! builder, string! name, System.Action<Neo4jClientSettings>? configureSettings = null) -> void

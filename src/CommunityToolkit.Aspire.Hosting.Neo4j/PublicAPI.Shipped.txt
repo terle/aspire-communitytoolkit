@@ -1,0 +1,9 @@
+#nullable enable
+Aspire.Hosting.ApplicationModel.Neo4jResource
+Aspire.Hosting.ApplicationModel.Neo4jResource.ConnectionStringExpression.get -> Aspire.Hosting.ApplicationModel.ReferenceExpression!
+Aspire.Hosting.ApplicationModel.Neo4jResource.UsernameParameter.get -> Aspire.Hosting.ApplicationModel.ParameterResource
+Aspire.Hosting.ApplicationModel.Neo4jResource.PasswordParameter.get -> Aspire.Hosting.ApplicationModel.ParameterResource!
+Aspire.Hosting.ApplicationModel.Neo4jResource.BoltEndpoint.get -> Aspire.Hosting.ApplicationModel.EndpointReference!
+Aspire.Hosting.ApplicationModel.Neo4jResource.HttpEndpoint.get -> Aspire.Hosting.ApplicationModel.EndpointReference!
+
+Aspire.Hosting.Neo4jResourceBuilderExtensions
